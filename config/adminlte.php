@@ -344,6 +344,13 @@ return [
         ],
 
         [
+            'text' => 'Turnos',
+            'url' => 'admin/turnos',
+            'icon' => 'bi bi-stopwatch',
+            'classes' => 'bg-blue text-white',
+        ],
+
+        [
             'text' => 'profile',
             'url' => 'admin/settings',
             'icon' => 'fas fa-fw fa-user',

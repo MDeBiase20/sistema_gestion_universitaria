@@ -50,6 +50,20 @@
                 <!-- /.info-box -->
             </div>
 
+            <div class="col-md-3 col-sm-6 col-12">
+                <div class="info-box">
+                
+                    <img src="{{ url('/img/tiempo.gif') }}" width="70px" alt="">
+
+                <div class="info-box-content">
+                    <span class="info-box-text"><b>Turnos registradas</b></span>
+                    <span class="info-box-number">{{ $total_turnos }} <b>turno/os registrada/s</b></span>
+                </div>
+                <!-- /.info-box-content -->
+                </div>
+                <!-- /.info-box -->
+            </div>
+
         </div>
 @stop
 
