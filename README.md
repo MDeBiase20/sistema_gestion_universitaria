@@ -1,0 +1,1 @@
+<h1 align="center">SISTEMA DE GESTION UNIVERSITARIA</h1>
