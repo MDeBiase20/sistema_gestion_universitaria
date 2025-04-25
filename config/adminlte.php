@@ -358,6 +358,13 @@ return [
         ],
 
         [
+            'text' => 'Periodos',
+            'url' => 'admin/periodos',
+            'icon' => 'bi bi-calendar3',
+            'classes' => 'bg-blue text-white',
+        ],
+
+        [
             'text' => 'profile',
             'url' => 'admin/settings',
             'icon' => 'fas fa-fw fa-user',
