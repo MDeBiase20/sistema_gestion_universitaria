@@ -351,6 +351,13 @@ return [
         ],
 
         [
+            'text' => 'Paralelos',
+            'url' => 'admin/paralelos',
+            'icon' => 'bi bi-copy',
+            'classes' => 'bg-blue text-white',
+        ],
+
+        [
             'text' => 'profile',
             'url' => 'admin/settings',
             'icon' => 'fas fa-fw fa-user',
