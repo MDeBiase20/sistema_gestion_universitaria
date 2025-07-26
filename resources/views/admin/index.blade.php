@@ -84,8 +84,22 @@
                     <img src="{{ url('/img/completar.gif') }}" width="70px" alt="">
 
                 <div class="info-box-content">
-                    <span class="info-box-text"><b>Periodos registradas</b></span>
+                    <span class="info-box-text"><b>Periodos registrados</b></span>
                     <span class="info-box-number">{{ $total_periodos }} <b>periodo/s registrado/s</b></span>
+                </div>
+                <!-- /.info-box-content -->
+                </div>
+                <!-- /.info-box -->
+            </div>
+
+            <div class="col-md-3 col-sm-6 col-12">
+                <div class="info-box">
+                
+                    <img src="{{ url('/img/libro.gif') }}" width="70px" alt="">
+
+                <div class="info-box-content">
+                    <span class="info-box-text"><b>Materias registradas</b></span>
+                    <span class="info-box-number">{{ $total_materias }} <b>materia/s registrada/s</b></span>
                 </div>
                 <!-- /.info-box-content -->
                 </div>

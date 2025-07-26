@@ -365,6 +365,27 @@ return [
         ],
 
         [
+            'text' => 'Materias',
+            'url' => 'admin/materias',
+            'icon' => 'bi bi-journal',
+            'classes' => 'bg-blue text-white',
+        ],
+
+        [
+            'text' => 'Roles',
+            'url' => 'admin/roles',
+            'icon' => 'bi bi-person-check-fill',
+            'classes' => 'bg-blue text-white',
+        ],
+
+        [
+            'text' => 'Administrativos',
+            'url' => 'admin/administrativos',
+            'icon' => 'bi bi-person-fill-gear',
+            'classes' => 'bg-blue text-white',
+        ],
+
+        [
             'text' => 'profile',
             'url' => 'admin/settings',
             'icon' => 'fas fa-fw fa-user',

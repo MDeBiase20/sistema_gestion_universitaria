@@ -12,4 +12,10 @@ class Carrera extends Model
         'nombre',
     ];
 
+    //Relación uno a muchos
+    public function materias()
+    {
+        return $this->hasMany(Materia::class);
+    }
+    
 }
