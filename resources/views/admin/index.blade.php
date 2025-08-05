@@ -106,6 +106,34 @@
                 <!-- /.info-box -->
             </div>
 
+            <div class="col-md-3 col-sm-6 col-12">
+                <div class="info-box">
+                
+                    <img src="{{ url('/img/roles.gif') }}" width="70px" alt="">
+
+                <div class="info-box-content">
+                    <span class="info-box-text"><b>Roles registradas</b></span>
+                    <span class="info-box-number">{{ $total_roles }} <b>Rol/s registrada/s</b></span>
+                </div>
+                <!-- /.info-box-content -->
+                </div>
+                <!-- /.info-box -->
+            </div>
+
+            <div class="col-md-3 col-sm-6 col-12">
+                <div class="info-box">
+                
+                    <img src="{{ url('/img/administrativos.gif') }}" width="70px" alt="">
+
+                <div class="info-box-content">
+                    <span class="info-box-text"><b>Administrativos registradas</b></span>
+                    <span class="info-box-number">{{ $total_administrativos }} <b>Administrativo/s registrada/s</b></span>
+                </div>
+                <!-- /.info-box-content -->
+                </div>
+                <!-- /.info-box -->
+            </div>
+
         </div>
 @stop
 

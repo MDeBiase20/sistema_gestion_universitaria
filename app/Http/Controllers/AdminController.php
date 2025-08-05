@@ -10,6 +10,8 @@ use App\Models\Turno;
 use App\Models\Paralelo;
 use App\Models\Periodo;
 use App\Models\Materia;
+use Spatie\Permission\Models\Role;
+use App\Models\Administrativo;
 
 class AdminController extends Controller
 {
@@ -22,6 +24,8 @@ class AdminController extends Controller
         $total_paralelos = Paralelo::count();
         $total_periodos = Periodo::count();
         $total_materias = Materia::count();
+        $total_roles = Role::count();
+        $total_administrativos = Administrativo::count();
 
         return view('admin.index', compact('total_gestiones',
                                             'total_carreras',
@@ -29,6 +33,8 @@ class AdminController extends Controller
                                             'total_turnos',
                                             'total_paralelos',
                                             'total_periodos',
-                                            'total_materias'));
+                                            'total_materias',
+                                            'total_roles',
+                                            'total_administrativos'));
     }
 }

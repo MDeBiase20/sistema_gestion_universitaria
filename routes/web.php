@@ -93,3 +93,16 @@ Route::get('/admin/administrativos/show/{id}', [App\Http\Controllers\Administrat
 Route::get('/admin/administrativos/edit/{id}', [App\Http\Controllers\AdministrativoController::class, 'edit'])->name('admin.administrativos.edit')->middleware('auth');
 Route::put('/admin/administrativos/{id}', [App\Http\Controllers\AdministrativoController::class, 'update'])->name('admin.administrativos.update')->middleware('auth');
 Route::delete('/admin/administrativos/{id}', [App\Http\Controllers\AdministrativoController::class, 'destroy'])->name('admin.administrativos.destroy')->middleware('auth');
+
+//Rutas para docentes
+Route::get('/admin/docentes', [App\Http\Controllers\DocenteController::class, 'index'])->name('admin.docentes.index')->middleware('auth');
+Route::get('/admin/docentes/create', [App\Http\Controllers\DocenteController::class, 'create'])->name('admin.docentes.create')->middleware('auth');
+Route::post('/admin/docentes/create', [App\Http\Controllers\DocenteController::class, 'store'])->name('admin.docentes.store')->middleware('auth');
+Route::get('/admin/docentes/show/{id}', [App\Http\Controllers\DocenteController::class, 'show'])->name('admin.docentes.show')->middleware('auth');
+Route::get('/admin/docentes/edit/{id}', [App\Http\Controllers\DocenteController::class, 'edit'])->name('admin.docentes.edit')->middleware('auth');
+Route::put('/admin/docentes/{id}', [App\Http\Controllers\DocenteController::class, 'update'])->name('admin.docentes.update')->middleware('auth');
+Route::delete('/admin/docentes/{id}', [App\Http\Controllers\DocenteController::class, 'destroy'])->name('admin.docentes.destroy')->middleware('auth');
+
+//Rutas para docente formaciones
+Route::post('/admin/docentes/createformacion/{id}', [App\Http\Controllers\DocenteFormacionController::class, 'store'])->name('admin.docentesformaciones.store')->middleware('auth');
+Route::delete('/admin/docentes/formacion/{id}', [App\Http\Controllers\DocenteFormacionController::class, 'destroy'])->name('admin.docentesformaciones.destroy')->middleware('auth');

@@ -386,6 +386,13 @@ return [
         ],
 
         [
+            'text' => 'Docentes',
+            'url' => 'admin/docentes',
+            'icon' => 'bi bi-person-badge-fill',
+            'classes' => 'bg-blue text-white',
+        ],
+
+        [
             'text' => 'profile',
             'url' => 'admin/settings',
             'icon' => 'fas fa-fw fa-user',
