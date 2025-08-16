@@ -134,6 +134,34 @@
                 <!-- /.info-box -->
             </div>
 
+            <div class="col-md-3 col-sm-6 col-12">
+                <div class="info-box">
+                
+                    <img src="{{ url('/img/maestro.gif') }}" width="70px" alt="">
+
+                <div class="info-box-content">
+                    <span class="info-box-text"><b>Docentes registradas</b></span>
+                    <span class="info-box-number">{{ $total_docentes }} <b>Docente/s registrado/s</b></span>
+                </div>
+                <!-- /.info-box-content -->
+                </div>
+                <!-- /.info-box -->
+            </div>
+
+            <div class="col-md-3 col-sm-6 col-12">
+                <div class="info-box">
+                
+                    <img src="{{ url('/img/alumno.gif') }}" width="70px" alt="">
+
+                <div class="info-box-content">
+                    <span class="info-box-text"><b>Estudiantes registradas</b></span>
+                    <span class="info-box-number">{{ $total_estudiantes }} <b>Estudiante/s registrado/s</b></span>
+                </div>
+                <!-- /.info-box-content -->
+                </div>
+                <!-- /.info-box -->
+            </div>
+
         </div>
 @stop
 

@@ -393,6 +393,13 @@ return [
         ],
 
         [
+            'text' => 'Estudiantes',
+            'url' => 'admin/estudiantes',
+            'icon' => 'bi bi-person-vcard',
+            'classes' => 'bg-blue text-white',
+        ],
+
+        [
             'text' => 'profile',
             'url' => 'admin/settings',
             'icon' => 'fas fa-fw fa-user',
